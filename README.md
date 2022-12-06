@@ -58,6 +58,18 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Advice how to configure
+1. First create .env file by copying and changing the name of .env.example and than configure the database credentials
+- password
+- port
+- database name
+
+2. Run `npm install` to install the required dependencies
+
+3. Run in terminal after opened the project `npx prisma migrate dev` to create the tables in the database
+
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
